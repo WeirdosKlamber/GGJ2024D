@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{8CE2817E-EDE5-F491-7546-E59ECF82CEF3}">
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="37135803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapons, Axe, Battle Axe, Chop, Impact, Person, Fleshy Wound, Guts 03 SND22216 1.wav</ShortName>
+					<CachePath>SFX/Weapons, Axe, Battle Axe, Chop, Impact, Person, Fleshy Wound, Guts 03 SND22216 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100611333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp 03 SND23319 1.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp 03 SND23319 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="127497375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="135238718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2.wav</ShortName>
+					<CachePath>SFX/Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136713009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725_10C4C929.wem</CachePath>
+				</File>
+				<File Id="143040322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Vomit, Male, Sick, Into Bowl 01 SND23457.wav</ShortName>
+					<CachePath>SFX/Human, Vomit, Male, Sick, Into Bowl 01 SND23457_10C4C929.wem</CachePath>
+				</File>
+				<File Id="153537970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Tut x3 SND23679.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Tut x3 SND23679_10C4C929.wem</CachePath>
+				</File>
+				<File Id="221411208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crowds, Angry, Upset, Booing SND0204 1.wav</ShortName>
+					<CachePath>SFX/Crowds, Angry, Upset, Booing SND0204 1_FE6C7F52.wem</CachePath>
+				</File>
+				<File Id="300433330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300503656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Sigh, Bored 01 SND23419.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Sigh, Bored 01 SND23419_10C4C929.wem</CachePath>
+				</File>
+				<File Id="312233382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Huh 01 SND23344.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Huh 01 SND23344_10C4C929.wem</CachePath>
+				</File>
+				<File Id="315088009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp, Shock 03 SND23315.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp, Shock 03 SND23315_10C4C929.wem</CachePath>
+				</File>
+				<File Id="337575722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tambourine.wav</ShortName>
+					<CachePath>SFX/tambourine_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="369635341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2_896C679F.wem</CachePath>
+				</File>
+				<File Id="373436655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1.wav</ShortName>
+					<CachePath>SFX/Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="377395700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Laughing, Laughs 01 SND63769.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Laughing, Laughs 01 SND63769_10C4C929.wem</CachePath>
+				</File>
+				<File Id="423558059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1.wav</ShortName>
+					<CachePath>SFX/Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472591523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Vomit, Male, Gag, Choke 01 SND23306 1.wav</ShortName>
+					<CachePath>SFX/Human, Vomit, Male, Gag, Choke 01 SND23306 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="479922121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>kick.wav</ShortName>
+					<CachePath>SFX/kick_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="492948075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="516601760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770_C1EF64AB.wem</CachePath>
+				</File>
+				<File Id="535354629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724_10C4C929.wem</CachePath>
+				</File>
+				<File Id="536475922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415_10C4C929.wem</CachePath>
+				</File>
+				<File Id="554042323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563870068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1_C92AA601.wem</CachePath>
+				</File>
+				<File Id="566682042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp, Shock 02 SND23316.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp, Shock 02 SND23316_10C4C929.wem</CachePath>
+				</File>
+				<File Id="596019436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Huh 03 SND23345 1.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Huh 03 SND23345 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631283165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp 04 SND23318.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp 04 SND23318_10C4C929.wem</CachePath>
+				</File>
+				<File Id="658291807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679831934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp, Shock 02 SND23316 1.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp, Shock 02 SND23316 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="689856092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Vomit, Male, Gag, Choke 01 SND23306.wav</ShortName>
+					<CachePath>SFX/Human, Vomit, Male, Gag, Choke 01 SND23306_10C4C929.wem</CachePath>
+				</File>
+				<File Id="702319743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136.wav</ShortName>
+					<CachePath>SFX/Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136_10C4C929.wem</CachePath>
+				</File>
+				<File Id="705718443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="720254622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618_10C4C929.wem</CachePath>
+				</File>
+				<File Id="745090953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687.wav</ShortName>
+					<CachePath>SFX/Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687_10C4C929.wem</CachePath>
+				</File>
+				<File Id="814824938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688.wav</ShortName>
+					<CachePath>SFX/Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688_10C4C929.wem</CachePath>
+				</File>
+				<File Id="855422328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Sigh, Bored 02 SND23418.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Sigh, Bored 02 SND23418_10C4C929.wem</CachePath>
+				</File>
+				<File Id="860135010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Huh 02 SND23343.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Huh 02 SND23343_10C4C929.wem</CachePath>
+				</File>
+				<File Id="896957380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Human, Vomit, Male, Gag SND23304.wav</ShortName>
+					<CachePath>SFX/Human, Vomit, Male, Gag SND23304_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914758993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2_242FD17F.wem</CachePath>
+				</File>
+				<File Id="919684935" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Reaction, Male, Gasp 03 SND23319 3.wav</ShortName>
+					<CachePath>SFX/Voices, Reaction, Male, Gasp 03 SND23319 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923764460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Male, 37 Years Old, Sigh, Fed Up SND23245.wav</ShortName>
+					<CachePath>SFX/Voices, Male, 37 Years Old, Sigh, Fed Up SND23245_10C4C929.wem</CachePath>
+				</File>
+				<File Id="930068027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1.wav</ShortName>
+					<CachePath>SFX/Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="963347798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>flute.wav</ShortName>
+					<CachePath>SFX/flute_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1020382203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3.wav</ShortName>
+					<CachePath>SFX/Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1071420667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>harpsichord.wav</ShortName>
+					<CachePath>SFX/harpsichord_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4158285989" Name="GameOver" DurationType="OneShot" DurationMin="6.0342083" DurationMax="6.0342083">
+					<MediaRefs>
+						<MediaRef Id="37135803"/>
+						<MediaRef Id="221411208"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="358587790" Name="Joker_anger" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="47709903" Name="Joker_defeated" DurationType="OneShot" DurationMin="4.8767605" DurationMax="4.8767605">
+					<MediaRefs>
+						<MediaRef Id="127497375"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2569383713" Name="Joker_laughter" DurationType="OneShot" DurationMin="1.4109323" DurationMax="1.7727135">
+					<MediaRefs>
+						<MediaRef Id="516601760"/>
+						<MediaRef Id="563870068"/>
+						<MediaRef Id="914758993"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1629372480" Name="Joker_nausea" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1723791802" Name="Joker_neutral" DurationType="OneShot" DurationMin="1.0597187" DurationMax="2.0347605">
+					<MediaRefs>
+						<MediaRef Id="423558059"/>
+						<MediaRef Id="745090953"/>
+						<MediaRef Id="814824938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="356481741" Name="Joker_shock" DurationType="OneShot" DurationMin="0.45597917" DurationMax="0.6930417">
+					<MediaRefs>
+						<MediaRef Id="100611333"/>
+						<MediaRef Id="136713009"/>
+						<MediaRef Id="535354629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4022620300" Name="King_anger" DurationType="OneShot" DurationMin="0.9653646" DurationMax="1.3402709">
+					<MediaRefs>
+						<MediaRef Id="135238718"/>
+						<MediaRef Id="373436655"/>
+						<MediaRef Id="702319743"/>
+						<MediaRef Id="1020382203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2254712665" Name="King_defeated" DurationType="OneShot" DurationMin="2.038" DurationMax="2.038">
+					<MediaRefs>
+						<MediaRef Id="720254622"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3413749847" Name="King_laughter" DurationType="OneShot" DurationMin="1.577427" DurationMax="1.829552">
+					<MediaRefs>
+						<MediaRef Id="492948075"/>
+						<MediaRef Id="554042323"/>
+						<MediaRef Id="658291807"/>
+						<MediaRef Id="705718443"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3568600182" Name="King_nausea" DurationType="OneShot" DurationMin="0.3125" DurationMax="0.59920835">
+					<MediaRefs>
+						<MediaRef Id="143040322"/>
+						<MediaRef Id="472591523"/>
+						<MediaRef Id="689856092"/>
+						<MediaRef Id="896957380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3572847844" Name="King_neutral" DurationType="OneShot" DurationMin="0.92266667" DurationMax="2.164854">
+					<MediaRefs>
+						<MediaRef Id="300503656"/>
+						<MediaRef Id="536475922"/>
+						<MediaRef Id="855422328"/>
+						<MediaRef Id="923764460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2556390999" Name="King_shock" DurationType="OneShot" DurationMin="0.3395729" DurationMax="0.6613854">
+					<MediaRefs>
+						<MediaRef Id="315088009"/>
+						<MediaRef Id="566682042"/>
+						<MediaRef Id="631283165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2874373212" Name="Monk_anger" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3438112393" Name="Monk_defeated" DurationType="OneShot" DurationMin="1.8677396" DurationMax="1.8677396">
+					<MediaRefs>
+						<MediaRef Id="300433330"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1594237959" Name="Monk_laughter" DurationType="OneShot" DurationMin="1.1164427" DurationMax="1.6568854">
+					<MediaRefs>
+						<MediaRef Id="369635341"/>
+						<MediaRef Id="377395700"/>
+						<MediaRef Id="930068027"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3078172358" Name="Monk_nausea" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="582494196" Name="Monk_neutral" DurationType="OneShot" DurationMin="0.21121724" DurationMax="0.37523538">
+					<MediaRefs>
+						<MediaRef Id="312233382"/>
+						<MediaRef Id="596019436"/>
+						<MediaRef Id="860135010"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1500935143" Name="Monk_shock" DurationType="OneShot" DurationMin="0.34321874" DurationMax="0.8273229">
+					<MediaRefs>
+						<MediaRef Id="153537970"/>
+						<MediaRef Id="679831934"/>
+						<MediaRef Id="919684935"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="337575722"/>
+						<MediaRef Id="479922121"/>
+						<MediaRef Id="963347798"/>
+						<MediaRef Id="1071420667"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4CD21E3B-4C0E-DD3E-9A70-3408AB43A4E4}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2177735725" Name="Music_level"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A4009563-8A9A-0715-6617-C64576E877A4}</FileHash>
+</SoundBanksInfo>

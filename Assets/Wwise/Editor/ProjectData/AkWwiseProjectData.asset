@@ -1,0 +1,564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409978ab2cdc7914d91db0bf60afc025, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 16a013ed2e4a5844850257e39d1dc22d
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 16a013ed2e4a5844850257e39d1dc22d
+    GuidInternal: 
+    m_lastTime: -8584952203452435532
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a71c653fd8224640885fabd811ab014d
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: a71c653fd8224640885fabd811ab014d
+    GuidInternal: 
+    m_lastTime: -8584952203454476646
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a71c653fd8224640885fabd811ab014d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy\New Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a71c653fd8224640885fabd811ab014d
+    - ElementName: New Work Unit
+      ObjectType: 12
+      guid: 78ee5ce361cc1a48af12e71c9fc7c259
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit\New Work Unit
+    guid: 78ee5ce361cc1a48af12e71c9fc7c259
+    GuidInternal: 
+    m_lastTime: -8584952203454466664
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 94a25c57980c2d46bad09ea2e4a6383a
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 94a25c57980c2d46bad09ea2e4a6383a
+    GuidInternal: 
+    m_lastTime: -8584951498772626152
+    List:
+    - name: General
+      guid: 5e5862904ca3544285ebf0a5c395565e
+      id: 133642231
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94a25c57980c2d46bad09ea2e4a6383a
+      - ElementName: General
+        ObjectType: 7
+        guid: 5e5862904ca3544285ebf0a5c395565e
+      Path: SoundBanks\Default Work Unit\General
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2128915aa9a2e84bb53c794e0befbf24
+    ParentPath: Events\Default Work Unit
+    guid: 2128915aa9a2e84bb53c794e0befbf24
+    GuidInternal: 
+    m_lastTime: -8584951496718265419
+    List:
+    - name: Crowd_boo
+      guid: c6917e9933506d4aad0c672afecefa40
+      id: 3606065765
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Crowd_boo
+        ObjectType: 3
+        guid: c6917e9933506d4aad0c672afecefa40
+      Path: Events\Default Work Unit\Crowd_boo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameOver
+      guid: 094e3021af9cda4f90001c56364e8e71
+      id: 4158285989
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: GameOver
+        ObjectType: 3
+        guid: 094e3021af9cda4f90001c56364e8e71
+      Path: Events\Default Work Unit\GameOver
+      maxAttenuation: 0
+      maxDuration: 6.0342083
+      minDuration: 6.0342083
+    - name: Joker_anger
+      guid: 400df9ce6acd8840a5ba249d36444c3c
+      id: 358587790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_anger
+        ObjectType: 3
+        guid: 400df9ce6acd8840a5ba249d36444c3c
+      Path: Events\Default Work Unit\Joker_anger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Joker_defeated
+      guid: d99103db05622a4b8d02fe5bfac42a0f
+      id: 47709903
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_defeated
+        ObjectType: 3
+        guid: d99103db05622a4b8d02fe5bfac42a0f
+      Path: Events\Default Work Unit\Joker_defeated
+      maxAttenuation: 0
+      maxDuration: 4.8767605
+      minDuration: 4.8767605
+    - name: Joker_laughter
+      guid: a8dee04bdb93fc43b3e0c487ac880198
+      id: 2569383713
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_laughter
+        ObjectType: 3
+        guid: a8dee04bdb93fc43b3e0c487ac880198
+      Path: Events\Default Work Unit\Joker_laughter
+      maxAttenuation: 0
+      maxDuration: 1.7727135
+      minDuration: 1.4109323
+    - name: Joker_nausea
+      guid: fa309be9bfdbfc489ebf842538387679
+      id: 1629372480
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_nausea
+        ObjectType: 3
+        guid: fa309be9bfdbfc489ebf842538387679
+      Path: Events\Default Work Unit\Joker_nausea
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Joker_neutral
+      guid: 33e39142b7e56144ae36c927580698e3
+      id: 1723791802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_neutral
+        ObjectType: 3
+        guid: 33e39142b7e56144ae36c927580698e3
+      Path: Events\Default Work Unit\Joker_neutral
+      maxAttenuation: 0
+      maxDuration: 2.0347605
+      minDuration: 1.0597187
+    - name: Joker_shock
+      guid: 36084ae54e2f7342b5d89af21858b52e
+      id: 356481741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Joker_shock
+        ObjectType: 3
+        guid: 36084ae54e2f7342b5d89af21858b52e
+      Path: Events\Default Work Unit\Joker_shock
+      maxAttenuation: 0
+      maxDuration: 0.6930417
+      minDuration: 0.45597917
+    - name: King_anger
+      guid: 399b724ef6820c478f06037733a4d40f
+      id: 4022620300
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_anger
+        ObjectType: 3
+        guid: 399b724ef6820c478f06037733a4d40f
+      Path: Events\Default Work Unit\King_anger
+      maxAttenuation: 0
+      maxDuration: 1.3402709
+      minDuration: 0.9653646
+    - name: King_defeated
+      guid: 3decc8a43968f041ada73f0a5e5839f1
+      id: 2254712665
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_defeated
+        ObjectType: 3
+        guid: 3decc8a43968f041ada73f0a5e5839f1
+      Path: Events\Default Work Unit\King_defeated
+      maxAttenuation: 0
+      maxDuration: 2.038
+      minDuration: 2.038
+    - name: King_laughter
+      guid: 0816d14e275a0e49895119b92d19addb
+      id: 3413749847
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_laughter
+        ObjectType: 3
+        guid: 0816d14e275a0e49895119b92d19addb
+      Path: Events\Default Work Unit\King_laughter
+      maxAttenuation: 0
+      maxDuration: 1.829552
+      minDuration: 1.577427
+    - name: King_nausea
+      guid: 7bb2c69d23ca904a8a8f08d53805dc35
+      id: 3568600182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_nausea
+        ObjectType: 3
+        guid: 7bb2c69d23ca904a8a8f08d53805dc35
+      Path: Events\Default Work Unit\King_nausea
+      maxAttenuation: 0
+      maxDuration: 0.59920835
+      minDuration: 0.3125
+    - name: King_neutral
+      guid: 5bbf226fa4fd144f87a81cbc2b90c0f4
+      id: 3572847844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_neutral
+        ObjectType: 3
+        guid: 5bbf226fa4fd144f87a81cbc2b90c0f4
+      Path: Events\Default Work Unit\King_neutral
+      maxAttenuation: 0
+      maxDuration: 2.164854
+      minDuration: 0.92266667
+    - name: King_shock
+      guid: a764b98ee3dd5d40b61d8cf40df9bdb1
+      id: 2556390999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: King_shock
+        ObjectType: 3
+        guid: a764b98ee3dd5d40b61d8cf40df9bdb1
+      Path: Events\Default Work Unit\King_shock
+      maxAttenuation: 0
+      maxDuration: 0.6613854
+      minDuration: 0.3395729
+    - name: Monk_anger
+      guid: 76ea29526d9f5643b5a9e076d2e63997
+      id: 2874373212
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_anger
+        ObjectType: 3
+        guid: 76ea29526d9f5643b5a9e076d2e63997
+      Path: Events\Default Work Unit\Monk_anger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Monk_defeated
+      guid: 4bfb22c164c3a542ae8d64945578650f
+      id: 3438112393
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_defeated
+        ObjectType: 3
+        guid: 4bfb22c164c3a542ae8d64945578650f
+      Path: Events\Default Work Unit\Monk_defeated
+      maxAttenuation: 0
+      maxDuration: 1.8677396
+      minDuration: 1.8677396
+    - name: Monk_laughter
+      guid: 2140e20bf96683478bcfacd1ac49d676
+      id: 1594237959
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_laughter
+        ObjectType: 3
+        guid: 2140e20bf96683478bcfacd1ac49d676
+      Path: Events\Default Work Unit\Monk_laughter
+      maxAttenuation: 0
+      maxDuration: 1.6568854
+      minDuration: 1.1164427
+    - name: Monk_nausea
+      guid: 99ec51136ecd984984fbf6f28beac31b
+      id: 3078172358
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_nausea
+        ObjectType: 3
+        guid: 99ec51136ecd984984fbf6f28beac31b
+      Path: Events\Default Work Unit\Monk_nausea
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Monk_neutral
+      guid: 76c7c15d93b1614aa5f0e8098ce617d1
+      id: 582494196
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_neutral
+        ObjectType: 3
+        guid: 76c7c15d93b1614aa5f0e8098ce617d1
+      Path: Events\Default Work Unit\Monk_neutral
+      maxAttenuation: 0
+      maxDuration: 0.37523538
+      minDuration: 0.21121724
+    - name: Monk_shock
+      guid: fd8d8c93f1111a4984011422d7dffe08
+      id: 1500935143
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Monk_shock
+        ObjectType: 3
+        guid: fd8d8c93f1111a4984011422d7dffe08
+      Path: Events\Default Work Unit\Monk_shock
+      maxAttenuation: 0
+      maxDuration: 0.8273229
+      minDuration: 0.34321874
+    - name: Music
+      guid: b8e33c80f6d9cc4d8e2e015fb8dbc498
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Music
+        ObjectType: 3
+        guid: b8e33c80f6d9cc4d8e2e015fb8dbc498
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_death
+      guid: 07927a853d516141a318bebc81ee7c88
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2128915aa9a2e84bb53c794e0befbf24
+      - ElementName: Player_death
+        ObjectType: 3
+        guid: 07927a853d516141a318bebc81ee7c88
+      Path: Events\Default Work Unit\Player_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 80aab2d6e8ec93459b3204ab621aa8a6
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 80aab2d6e8ec93459b3204ab621aa8a6
+    GuidInternal: 
+    m_lastTime: -8584952203456882047
+    List:
+    - name: Music_level
+      guid: 8573bee6a1e93d4baab7a37e77e12677
+      id: 2177735725
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80aab2d6e8ec93459b3204ab621aa8a6
+      - ElementName: Music_level
+        ObjectType: 13
+        guid: 8573bee6a1e93d4baab7a37e77e12677
+      Path: Game Parameters\Default Work Unit\Music_level
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0dd70f97d58fa843a4a81a53dcd0e9b8
+    ParentPath: States\Default Work Unit
+    guid: 0dd70f97d58fa843a4a81a53dcd0e9b8
+    GuidInternal: 
+    m_lastTime: -8584952203452490428
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 01cc4cc176f5fa4c8a037b976faead17
+    ParentPath: Switches\Default Work Unit
+    guid: 01cc4cc176f5fa4c8a037b976faead17
+    GuidInternal: 
+    m_lastTime: -8584952203452470469
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 57e3b244c123d845978680cea5e30dc9
+    ParentPath: Triggers\Default Work Unit
+    guid: 57e3b244c123d845978680cea5e30dc9
+    GuidInternal: 
+    m_lastTime: -8584952203452460484
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 060000000700000008000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

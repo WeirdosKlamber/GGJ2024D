@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{803CE3B8-D9F6-4DCC-8E2E-015FB8DBC498}">
+					<ChildrenList>
+						<Action Name="" ID="{E340B84E-EDF4-4167-B18F-B4B8CCA0E892}" ShortID="687897660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="flute" ID="{0EA207EA-135F-431D-B5A1-329C0A5C76C2}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{219AFC6D-9B5F-4B94-954B-561C1BBE40EE}" ShortID="431995664">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="harpsichord" ID="{848FF879-9974-4541-9795-933E8A02E517}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{643558E9-AC99-4B39-B66D-386EB5F45FC1}" ShortID="284165581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kick" ID="{46A083F9-15C1-431B-8FE5-C54CFA6E9A6D}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A894C038-4F82-44C9-BDC5-EDC0B46E89AD}" ShortID="629631141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tambourine" ID="{9BD5ED4B-9049-4CA7-8CA9-0D7E245F51AB}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_laughter" ID="{4ED11608-5A27-490E-8951-19B92D19ADDB}">
+					<ChildrenList>
+						<Action Name="" ID="{5DCEB6A4-AFEB-4FCA-AC06-B55EC92AE3EF}" ShortID="951791202">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Laughter" ID="{209928D7-0785-45A4-A68D-8D65D2D7792E}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_nausea" ID="{9DC6B27B-CA23-4A90-8A8F-08D53805DC35}">
+					<ChildrenList>
+						<Action Name="" ID="{5ED0D19D-3B4D-430A-9B62-E40FB556A90B}" ShortID="953893821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Nausea" ID="{451F7891-95D6-401C-B3BB-A2E37604D9AF}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_neutral" ID="{6F22BF5B-FDA4-4F14-87A8-1CBC2B90C0F4}">
+					<ChildrenList>
+						<Action Name="" ID="{4AD96B1E-28E7-4A25-BF9D-8C043A825278}" ShortID="125145882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Neutral" ID="{21699D55-6161-47E7-9FD2-CA58A5BF8F54}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_shock" ID="{8EB964A7-DDE3-405D-B61D-8CF40DF9BDB1}">
+					<ChildrenList>
+						<Action Name="" ID="{27CD9C27-B91A-4578-AA65-24EB6FBCDFDB}" ShortID="745075356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Shock" ID="{E870DEC3-AA7C-4F04-9632-7A79B0116C4D}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_defeated" ID="{A4C8EC3D-6839-41F0-ADA7-3F0A5E5839F1}">
+					<ChildrenList>
+						<Action Name="" ID="{485EB145-6FED-4F9F-A138-5814D065635A}" ShortID="378517452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Win" ID="{438EABCB-CB3F-4E3B-88E8-CD73320CF59E}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="King_anger" ID="{4E729B39-82F6-470C-8F06-037733A4D40F}">
+					<ChildrenList>
+						<Action Name="" ID="{F8109624-9DE2-4D65-BFF3-03705A0D8FD9}" ShortID="581791543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="King_Anger" ID="{CAD5B2E8-183A-47CB-86AC-EE5C30E76563}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Joker_laughter" ID="{4BE0DEA8-93DB-43FC-B3E0-C487AC880198}">
+					<ChildrenList>
+						<Action Name="" ID="{C82A27C4-1D57-43DC-8373-D02F90EEADE0}" ShortID="651838965">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jester_Laughter" ID="{F97E9B7C-3DEC-42DE-8FB5-22F65F0C89BB}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Joker_defeated" ID="{DB0391D9-6205-4B2A-8D02-FE5BFAC42A0F}">
+					<ChildrenList>
+						<Action Name="" ID="{C2AC7FE4-E8B0-4D61-A1E1-F5E32686E9D4}" ShortID="497502197">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jester_Win" ID="{1AE53555-D0BA-40BC-B8DB-A0251E390BF2}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Joker_shock" ID="{E54A0836-2F4E-4273-B5D8-9AF21858B52E}">
+					<ChildrenList>
+						<Action Name="" ID="{0E26F8E2-DE24-4908-AD82-398119380F60}" ShortID="766891490">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jester_shocked" ID="{B1F15250-3102-49BD-96DB-69EBAFF756ED}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Joker_neutral" ID="{4291E333-E5B7-4461-AE36-C927580698E3}">
+					<ChildrenList>
+						<Action Name="" ID="{0D205AA8-C280-4AC2-8C91-CEF1B2D15A3E}" ShortID="285658070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jester_neutral" ID="{1E96E53E-6D60-42E0-A222-924170846235}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Joker_anger" ID="{CEF90D40-CD6A-4088-A5BA-249D36444C3C}"/>
+				<Event Name="Joker_nausea" ID="{E99B30FA-DBBF-48FC-9EBF-842538387679}"/>
+				<Event Name="Monk_defeated" ID="{C122FB4B-C364-42A5-AE8D-64945578650F}">
+					<ChildrenList>
+						<Action Name="" ID="{CBFD69C6-0222-4DAF-8A22-B81392E8A878}" ShortID="437895319">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monk_defeated" ID="{D2F1B961-72E7-4ECD-88F8-3E57FFCC4350}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monk_laughter" ID="{0BE24021-66F9-4783-8BCF-ACD1AC49D676}">
+					<ChildrenList>
+						<Action Name="" ID="{D05E2F96-1E8D-4878-992E-B15334DD1CA5}" ShortID="594527368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monk_laughter" ID="{91991109-8CD7-44A2-AB94-181690475FF8}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monk_anger" ID="{5229EA76-9F6D-4356-B5A9-E076D2E63997}"/>
+				<Event Name="Monk_shock" ID="{938C8DFD-11F1-491A-8401-1422D7DFFE08}">
+					<ChildrenList>
+						<Action Name="" ID="{2D434D4F-A444-4617-8AB6-D7B8DF1F7FB8}" ShortID="840555107">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monk_shock" ID="{5A92B7D0-C6C5-40DE-B0C1-2E42D910F5AD}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monk_neutral" ID="{5DC1C776-B193-4A61-A5F0-E8098CE617D1}">
+					<ChildrenList>
+						<Action Name="" ID="{D515567B-84C4-4C3E-9A37-198A8D50D2AA}" ShortID="515820194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monk_neutral" ID="{98748375-4BB3-40E5-8288-1D10E170A9FB}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monk_nausea" ID="{1351EC99-CD6E-4998-84FB-F6F28BEAC31B}"/>
+				<Event Name="Player_death" ID="{857A9207-513D-4161-A318-BEBC81EE7C88}">
+					<ChildrenList>
+						<Action Name="" ID="{E96A4038-8E71-4B8D-BDD9-2D1207AA9636}" ShortID="100072016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_chopped_off" ID="{AF4951E7-4CB8-4C0E-B497-8B416B3650A3}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Crowd_boo" ID="{997E91C6-5033-4A6D-AD0C-672AFECEFA40}">
+					<ChildrenList>
+						<Action Name="" ID="{117919D5-D35E-4C77-B5D2-F2A5D3B25972}" ShortID="483814926">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_booing" ID="{1BE2A56D-F295-40D2-BD01-4F39D89DA17E}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameOver" ID="{21304E09-9CAF-4FDA-9000-1C56364E8E71}">
+					<ChildrenList>
+						<Action Name="" ID="{B4672B4A-E634-4B69-B3C0-CD45A3523EF4}" ShortID="245723703">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{0C1BBA15-0D60-4271-A10F-98E265A1D0C2}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{11ABF4CB-EB22-4465-9395-8781F0AE021A}" ShortID="535970538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_booing" ID="{1BE2A56D-F295-40D2-BD01-4F39D89DA17E}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{499B3527-3988-42CF-AEEA-0BCE2FFB5548}" ShortID="379530353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_chopped_off" ID="{AF4951E7-4CB8-4C0E-B497-8B416B3650A3}" WorkUnitID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

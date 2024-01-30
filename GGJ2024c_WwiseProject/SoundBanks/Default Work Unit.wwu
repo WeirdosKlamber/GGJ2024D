@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{575CA294-0C98-462D-BAD0-9EA2E4A6383A}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{575CA294-0C98-462D-BAD0-9EA2E4A6383A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="General" ID="{9062585E-A34C-4254-85EB-F0A5C395565E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="King_shock" ID="{8EB964A7-DDE3-405D-B61D-8CF40DF9BDB1}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_anger" ID="{CEF90D40-CD6A-4088-A5BA-249D36444C3C}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="King_defeated" ID="{A4C8EC3D-6839-41F0-ADA7-3F0A5E5839F1}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_shock" ID="{E54A0836-2F4E-4273-B5D8-9AF21858B52E}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_defeated" ID="{C122FB4B-C364-42A5-AE8D-64945578650F}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_anger" ID="{5229EA76-9F6D-4356-B5A9-E076D2E63997}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_laughter" ID="{4BE0DEA8-93DB-43FC-B3E0-C487AC880198}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_neutral" ID="{4291E333-E5B7-4461-AE36-C927580698E3}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="King_anger" ID="{4E729B39-82F6-470C-8F06-037733A4D40F}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_laughter" ID="{0BE24021-66F9-4783-8BCF-ACD1AC49D676}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_nausea" ID="{E99B30FA-DBBF-48FC-9EBF-842538387679}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="King_laughter" ID="{4ED11608-5A27-490E-8951-19B92D19ADDB}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_shock" ID="{938C8DFD-11F1-491A-8401-1422D7DFFE08}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_nausea" ID="{1351EC99-CD6E-4998-84FB-F6F28BEAC31B}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monk_neutral" ID="{5DC1C776-B193-4A61-A5F0-E8098CE617D1}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="King_nausea" ID="{9DC6B27B-CA23-4A90-8A8F-08D53805DC35}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Joker_defeated" ID="{DB0391D9-6205-4B2A-8D02-FE5BFAC42A0F}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{803CE3B8-D9F6-4DCC-8E2E-015FB8DBC498}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="King_neutral" ID="{6F22BF5B-FDA4-4F14-87A8-1CBC2B90C0F4}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameOver" ID="{21304E09-9CAF-4FDA-9000-1C56364E8E71}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

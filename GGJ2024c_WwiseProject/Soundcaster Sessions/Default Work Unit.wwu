@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{31DF59EE-9C6E-423E-9135-1941A0A0B6E3}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{31DF59EE-9C6E-423E-9135-1941A0A0B6E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{729CE49E-61EF-49F4-ADDE-CFD0DFDA5D7B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music" ID="{803CE3B8-D9F6-4DCC-8E2E-015FB8DBC498}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameOver" ID="{21304E09-9CAF-4FDA-9000-1C56364E8E71}" WorkUnitID="{5A912821-A2A9-4BE8-B53C-794E0BEFBF24}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_level" ID="{E6BE7385-E9A1-4B3D-AAB7-A37E77E12677}"/>
+							<Value>3</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

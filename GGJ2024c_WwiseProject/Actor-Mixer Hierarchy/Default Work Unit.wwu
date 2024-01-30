@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{47EB227C-8CA3-4CF4-8F9C-7FFEA30E2208}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="PlayerCharacter" ID="{8BE53A44-56F7-4DF9-A623-86710F765486}" ShortID="206538377">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Head_chopped_off" ID="{AF4951E7-4CB8-4C0E-B497-8B416B3650A3}" ShortID="353309089">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weapons, Axe, Battle Axe, Chop, Impact, Person, Fleshy Wound, Guts 03 SND22216 1" ID="{8F7C0AD7-CCC3-4921-8C1A-2F38C9DBA2F1}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons, Axe, Battle Axe, Chop, Impact, Person, Fleshy Wound, Guts 03 SND22216 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="37135803"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weapons, Axe, Battle Axe, Chop, Impact, Person, Fleshy Wound, Guts 03 SND22216 1" ID="{8F7C0AD7-CCC3-4921-8C1A-2F38C9DBA2F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="UI" ID="{BF40CAB0-5557-4E4A-BAD5-F8EDEAD5CE8E}" ShortID="849966388">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Card_placement" ID="{60502337-9BCC-4B32-B43D-19935C7F8BD2}" ShortID="433819471">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Card_down" ID="{0B36114B-722A-4FF1-947F-761B1DDB3EE1}" ShortID="5967087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down" ID="{0DA84479-43B1-4520-B052-131032EFE6B6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0734669811320755"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.127948113207547"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0652122641509434"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.339268867924528"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281940406"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down" ID="{0DA84479-43B1-4520-B052-131032EFE6B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_down_2" ID="{50526500-B04E-43B2-99CE-F2BF38C07D6B}" ShortID="793441899">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down_2" ID="{A37803A1-7D86-4BFF-B553-5A1FFF766679}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.191078244274809"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.156727099236641"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0461593511450382"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.469107824427481"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828108578"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down_2" ID="{A37803A1-7D86-4BFF-B553-5A1FFF766679}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_down_3" ID="{30E30E1D-3DB7-45F4-B57C-A4F7CCDB8537}" ShortID="531078828">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down_3" ID="{C3AA61D8-3136-4067-8BBE-F0CFF83A5524}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.066793893129771"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0799141221374046"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.223043893129771"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.540314885496183"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="340052197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down_3" ID="{C3AA61D8-3136-4067-8BBE-F0CFF83A5524}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_down_4" ID="{16194480-6D79-475E-8929-C63F3D2EA767}" ShortID="964727210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down_4" ID="{6898031C-5DCD-4920-9016-061D6B7B45B1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0834923664122137"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.14074427480916"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.189646946564886"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.515267175572519"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="606262785"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down_4" ID="{6898031C-5DCD-4920-9016-061D6B7B45B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_down_5" ID="{360E1546-F791-4BF0-B879-9753E9688AEE}" ShortID="1017835447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down_5" ID="{E16B9C35-C591-4F6C-A65B-347054E2EF91}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.12881679389313"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.133587786259542"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.12881679389313"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.469942748091603"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618473164"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down_5" ID="{E16B9C35-C591-4F6C-A65B-347054E2EF91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_down_6" ID="{B01D2F27-70BF-45E4-93FE-02F6837CEC88}" ShortID="84957273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_down_6" ID="{25BAADFE-699D-4A47-A10B-C0F7CFCF27DF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.121660305343511"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.113072519083969"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.250477099236641"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.561068702290076"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_down_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837091398"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_down_6" ID="{25BAADFE-699D-4A47-A10B-C0F7CFCF27DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Card_shuffle" ID="{3E3FA3D7-26A1-46EC-BF13-20307DFEA323}" ShortID="221383375">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Card_shuffle" ID="{DE695D87-8DAA-48EE-B74F-CD5E7B041F74}" ShortID="407610799">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_shuffle" ID="{ECEFF32D-DE19-47E1-A5DC-D1E33B392F6E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.125954198473282"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.229007633587786"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.115935114503817"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.499522900763358"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_shuffle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434376633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_shuffle" ID="{ECEFF32D-DE19-47E1-A5DC-D1E33B392F6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_shuffle_2" ID="{8F815601-7F51-4788-91F3-458BCCED2AB6}" ShortID="343236748">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_shuffle_2" ID="{807BA92D-7EF4-4645-9349-B7EB35CB45AC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.100190839694656"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.184637404580153"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.270515267175573"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.628339694656489"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_shuffle_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136610202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_shuffle_2" ID="{807BA92D-7EF4-4645-9349-B7EB35CB45AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_shuffle_3" ID="{2F022DDE-B69E-4339-B5FF-08C7DC22FA2A}" ShortID="764756057">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_shuffle_3" ID="{C53E0E45-6FDD-4FD3-867B-6BB4058DB070}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.107347328244275"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.103053435114504"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.251908396946565"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.532442748091603"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_shuffle_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434904490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_shuffle_3" ID="{C53E0E45-6FDD-4FD3-867B-6BB4058DB070}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_shuffle_4" ID="{8CB3423A-8B18-4669-8752-0D24DD22A923}" ShortID="363992777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_shuffle_4" ID="{FFA31B00-0706-4099-B780-FC663D647118}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0548664122137405"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.157442748091603"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.190839694656489"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.455629770992366"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_shuffle_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="471707829"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_shuffle_4" ID="{FFA31B00-0706-4099-B780-FC663D647118}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Card_shuffle_5" ID="{577B037D-47C2-4213-83A4-E2C56C46A7C6}" ShortID="428497782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Card_shuffle_5" ID="{CD9F63D8-34B1-43B2-8EA5-340202E69583}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0870706106870229"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.100190839694657"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.162213740458015"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.435353053435115"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Card_shuffle_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115215612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Card_shuffle_5" ID="{CD9F63D8-34B1-43B2-8EA5-340202E69583}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Final_card" ID="{DE1CFB29-E51B-4A28-8602-35CA2EA13E01}" ShortID="615364024">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Ambient" ID="{1294640A-A26E-4FAE-8875-8110BBE24D66}" ShortID="998069920">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Crowd cheering" ID="{4DE858F1-6928-4438-8B9F-4809C07B0F76}" ShortID="1024861556">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Crowd laughter" ID="{B79A5C96-6189-4D7F-BFD9-F588DDA9E0C4}" ShortID="493406221">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<Sound Name="Crowd_booing" ID="{1BE2A56D-F295-40D2-BD01-4F39D89DA17E}" ShortID="966698910">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowds, Angry, Upset, Booing SND0204 1" ID="{FA9F3AB1-0715-48B6-8EEB-AD19F9B5F4FE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.934329032258064"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.25796182795699"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Crowds, Angry, Upset, Booing SND0204 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221411208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowds, Angry, Upset, Booing SND0204 1" ID="{FA9F3AB1-0715-48B6-8EEB-AD19F9B5F4FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Music" ID="{0C1BBA15-0D60-4271-A10F-98E265A1D0C2}" ShortID="627249267">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="flute" ID="{0EA207EA-135F-431D-B5A1-329C0A5C76C2}" ShortID="358742333">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="flute" ID="{003CA824-1DC6-400C-9D8B-154957D1A607}">
+									<Language>SFX</Language>
+									<AudioFile>flute.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963347798"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="flute" ID="{003CA824-1DC6-400C-9D8B-154957D1A607}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="harpsichord" ID="{848FF879-9974-4541-9795-933E8A02E517}" ShortID="524054421">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="harpsichord" ID="{B92AA352-DF96-4F25-9569-9F52FEDB3151}">
+									<Language>SFX</Language>
+									<AudioFile>harpsichord.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1071420667"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="harpsichord" ID="{B92AA352-DF96-4F25-9569-9F52FEDB3151}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tambourine" ID="{9BD5ED4B-9049-4CA7-8CA9-0D7E245F51AB}" ShortID="111617794">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tambourine" ID="{EED6C7E0-E36B-4DFE-80B6-F1D8C0C60D44}">
+									<Language>SFX</Language>
+									<AudioFile>tambourine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="337575722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tambourine" ID="{EED6C7E0-E36B-4DFE-80B6-F1D8C0C60D44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="kick" ID="{46A083F9-15C1-431B-8FE5-C54CFA6E9A6D}" ShortID="848963143">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="kick" ID="{2150FA8C-CB47-4D98-A1A2-D49E4C9760E1}">
+									<Language>SFX</Language>
+									<AudioFile>kick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479922121"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="kick" ID="{2150FA8C-CB47-4D98-A1A2-D49E4C9760E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="New Actor-Mixer" ID="{7329AE94-332D-48AD-A188-6EF1EE9C59FF}" ShortID="282397285">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Enemies" ID="{4E5F42D8-2991-44B7-8849-CE20BE13E9EB}" ShortID="692006715">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="King" ID="{5160CC3E-84C2-493D-BEA9-2723BC7EBDEA}" ShortID="961503357">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="King_Neutral" ID="{21699D55-6161-47E7-9FD2-CA58A5BF8F54}" ShortID="811345995">
+											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Reaction, Male, Sigh, Bored 02 SND23418" ID="{57A80DA8-C643-4A47-91BD-802ED777F0AD}" ShortID="156153217">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Sigh, Bored 02 SND23418" ID="{3849FC28-A317-409C-ADDE-0166B46C0132}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Sigh, Bored 02 SND23418.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="855422328"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Sigh, Bored 02 SND23418" ID="{3849FC28-A317-409C-ADDE-0166B46C0132}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Sigh, Bored 01 SND23419" ID="{969CBFB4-37CE-4E29-A293-0746A01C3B77}" ShortID="480408994">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Sigh, Bored 01 SND23419" ID="{24318CF0-8851-477D-BFBB-FAE7EE8F7FCF}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Sigh, Bored 01 SND23419.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="300503656"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Sigh, Bored 01 SND23419" ID="{24318CF0-8851-477D-BFBB-FAE7EE8F7FCF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415" ID="{16F2A05F-2C47-445A-96E3-5D8C0EF5BF63}" ShortID="862773621">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415" ID="{0BB8F102-F5A1-4A5C-B4E3-294D3AF8F4BC}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="536475922"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Sigh, Negative, Fed Up 01 SND23415" ID="{0BB8F102-F5A1-4A5C-B4E3-294D3AF8F4BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Male, 37 Years Old, Sigh, Fed Up SND23245" ID="{BF233495-3183-43C7-9778-C34BA3ADD2E5}" ShortID="149287699">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Male, 37 Years Old, Sigh, Fed Up SND23245" ID="{819D4F2A-DBBA-4728-9F7F-E7EF8BC6F82B}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Male, 37 Years Old, Sigh, Fed Up SND23245.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="923764460"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Male, 37 Years Old, Sigh, Fed Up SND23245" ID="{819D4F2A-DBBA-4728-9F7F-E7EF8BC6F82B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="King_Laughter" ID="{209928D7-0785-45A4-A68D-8D65D2D7792E}" ShortID="4018974">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615" ID="{6B97EE03-782F-4DA6-925F-61793FA0ECB0}" ShortID="705064204">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615" ID="{DFB9207A-AFB1-46CB-BC29-0F113501D760}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="658291807"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615" ID="{DFB9207A-AFB1-46CB-BC29-0F113501D760}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1" ID="{379F5631-818D-4C6C-861E-39483F4AAB68}" ShortID="251184273">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1" ID="{4367E5DA-89BA-43BC-A84F-0594F451DAE8}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="705718443"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 1" ID="{4367E5DA-89BA-43BC-A84F-0594F451DAE8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2" ID="{3E4EF9F7-E3C2-4416-BC92-3F96C5371968}" ShortID="897131009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2" ID="{B54A5E83-B59D-429A-BA97-4B30F9A3C57A}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="492948075"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 2" ID="{B54A5E83-B59D-429A-BA97-4B30F9A3C57A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3" ID="{B8CB6FB3-0538-46A3-B48C-30C3CE6B4EE9}" ShortID="124365767">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3" ID="{CE4CABD6-275F-423C-A771-0B9F2EB9D685}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="554042323"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Pirate SND85615 3" ID="{CE4CABD6-275F-423C-A771-0B9F2EB9D685}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="King_Anger" ID="{CAD5B2E8-183A-47CB-86AC-EE5C30E76563}" ShortID="817923055">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136" ID="{168B9491-DA4F-418B-9312-141D9D0AB475}" ShortID="483626285">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136" ID="{65574647-A290-4CB4-B54A-F482554EEBB3}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="702319743"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136" ID="{65574647-A290-4CB4-B54A-F482554EEBB3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1" ID="{D3910D11-3FD5-4A1A-B3B1-D46D947E6B0A}" ShortID="517143321">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1" ID="{46BE2D13-57EE-44B8-9543-F98C08F5B756}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="373436655"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1" ID="{46BE2D13-57EE-44B8-9543-F98C08F5B756}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2" ID="{E73DBC12-3A54-4BBE-8C05-3ACFEB5DDCFD}" ShortID="762679203">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2" ID="{ECDD27DD-0065-4472-8389-337057582C9B}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="135238718"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 2" ID="{ECDD27DD-0065-4472-8389-337057582C9B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3" ID="{DDF9726C-5196-4146-AD65-978A3580A39B}" ShortID="503038806">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3" ID="{6EA2BAC0-F98D-40CD-BAFE-297A44C0A7AE}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020382203"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 3" ID="{6EA2BAC0-F98D-40CD-BAFE-297A44C0A7AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="King_Win" ID="{438EABCB-CB3F-4E3B-88E8-CD73320CF59E}" ShortID="881986818">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Type 02, Male, Mocking, Happy 02 SND85602" ID="{311FED24-C309-4EEC-B31E-0A44C256C81C}" ShortID="442191831">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Type 02, Male, Mocking, Happy 02 SND85602" ID="{1668B4A2-09FA-4164-B1FF-EB8E2F2CC54E}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Type 02, Male, Mocking, Happy 02 SND85602.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805757312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Type 02, Male, Mocking, Happy 02 SND85602" ID="{1668B4A2-09FA-4164-B1FF-EB8E2F2CC54E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618" ID="{FD42C861-3A4F-4E06-A63B-B0CB1981410D}" ShortID="754794561">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618" ID="{5F9D5D74-C85B-4F7F-8B54-DFA59AC8E4B6}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="720254622"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Type 03, Amused, Happy, Mocking 01 SND85618" ID="{5F9D5D74-C85B-4F7F-8B54-DFA59AC8E4B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="King_Shock" ID="{E870DEC3-AA7C-4F04-9632-7A79B0116C4D}" ShortID="278979307">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Reaction, Male, Gasp, Shock 03 SND23315" ID="{B90976D6-D990-4037-A7D7-6CD4ADB388DE}" ShortID="628042617">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp, Shock 03 SND23315" ID="{B8B8F1B7-5BF7-4AA2-8C81-2B4942E99218}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp, Shock 03 SND23315.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="315088009"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp, Shock 03 SND23315" ID="{B8B8F1B7-5BF7-4AA2-8C81-2B4942E99218}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Gasp 04 SND23318" ID="{D1F56B27-5B46-403E-9B2F-3FFAA22333CF}" ShortID="654715262">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp 04 SND23318" ID="{503DB409-0588-457E-987C-FB74DA36EC29}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp 04 SND23318.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="631283165"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp 04 SND23318" ID="{503DB409-0588-457E-987C-FB74DA36EC29}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316" ID="{D62A6122-7DFF-498B-934C-9F53F092C297}" ShortID="772878992">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316" ID="{D636792C-8F58-4BD5-8B4D-4C3F19EC9119}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp, Shock 02 SND23316.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="566682042"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316" ID="{D636792C-8F58-4BD5-8B4D-4C3F19EC9119}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="King_Nausea" ID="{451F7891-95D6-401C-B3BB-A2E37604D9AF}" ShortID="494329597">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Human, Vomit, Male, Gag, Choke 01 SND23306" ID="{662B2310-AA36-4DF3-836D-94D571D1A315}" ShortID="755358555">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Human, Vomit, Male, Gag, Choke 01 SND23306" ID="{6DFE9593-172D-477C-9244-7B4FB389CFC9}">
+															<Language>SFX</Language>
+															<AudioFile>Human, Vomit, Male, Gag, Choke 01 SND23306.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="689856092"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Human, Vomit, Male, Gag, Choke 01 SND23306" ID="{6DFE9593-172D-477C-9244-7B4FB389CFC9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Human, Vomit, Male, Gag, Choke 01 SND23306 1" ID="{E0D24E45-CC9F-4831-B1D1-D1BC7D653AFB}" ShortID="317904623">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Human, Vomit, Male, Gag, Choke 01 SND23306 1" ID="{6BC95B01-5A47-4F5A-9EB4-A9C131A1845A}">
+															<Language>SFX</Language>
+															<AudioFile>Human, Vomit, Male, Gag, Choke 01 SND23306 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="472591523"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Human, Vomit, Male, Gag, Choke 01 SND23306 1" ID="{6BC95B01-5A47-4F5A-9EB4-A9C131A1845A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Human, Vomit, Male, Sick, Into Bowl 01 SND23457" ID="{9A67084D-82EC-4016-B74A-2BBA6C92461C}" ShortID="349160842">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Human, Vomit, Male, Sick, Into Bowl 01 SND23457" ID="{A2980AC5-F6D9-430C-B9C0-E8FD02C9B4AC}">
+															<Language>SFX</Language>
+															<AudioFile>Human, Vomit, Male, Sick, Into Bowl 01 SND23457.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143040322"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Human, Vomit, Male, Sick, Into Bowl 01 SND23457" ID="{A2980AC5-F6D9-430C-B9C0-E8FD02C9B4AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Human, Vomit, Male, Gag SND23304" ID="{D853B407-4033-4895-A3B6-B08BA6C51FBF}" ShortID="340918560">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Human, Vomit, Male, Gag SND23304" ID="{645C6F1C-57DC-45E2-8F5F-8024D5238F67}">
+															<Language>SFX</Language>
+															<AudioFile>Human, Vomit, Male, Gag SND23304.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="896957380"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Human, Vomit, Male, Gag SND23304" ID="{645C6F1C-57DC-45E2-8F5F-8024D5238F67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="Jester" ID="{674E93F2-C2B4-4A73-9B95-AB7679ED3D16}" ShortID="933576258">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Jester_Laughter" ID="{F97E9B7C-3DEC-42DE-8FB5-22F65F0C89BB}" ShortID="250127830">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770" ID="{FB340911-D803-471E-89EE-0824A7EB45E1}" ShortID="989945756">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770" ID="{9DA0241F-33E0-438C-AF31-953322FD4462}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.312763474462366"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.396789482526882"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="516601760"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770" ID="{9DA0241F-33E0-438C-AF31-953322FD4462}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1" ID="{9FBDDE57-9B86-440F-AD4D-1C6F0A820D08}" ShortID="602025087">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1" ID="{0FB4A00F-01A0-4EC4-A223-7262A0ABA7BB}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.136541834677419"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.49155060483871"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="563870068"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 1" ID="{0FB4A00F-01A0-4EC4-A223-7262A0ABA7BB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2" ID="{8B9A3079-D489-4263-98CD-F432583C304C}" ShortID="176531490">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2" ID="{7090AF1C-A5BB-49E5-B938-D0DF0B5C6143}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.188708215725806"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.789143447580645"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="914758993"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 2" ID="{7090AF1C-A5BB-49E5-B938-D0DF0B5C6143}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Jester_Win" ID="{1AE53555-D0BA-40BC-B8DB-A0251E390BF2}" ShortID="867290986">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3" ID="{F31A5CB3-D5D4-47DF-AEF6-8F4362CE883A}" ShortID="799033560">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3" ID="{7C7A97C1-12D8-490B-BB15-C46888D37249}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="127497375"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Insane, Laughing, Laughs 01 SND63770 3" ID="{7C7A97C1-12D8-490B-BB15-C46888D37249}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Jester_neutral" ID="{1E96E53E-6D60-42E0-A222-924170846235}" ShortID="1038784922">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687" ID="{EABB0325-31C4-45BC-9615-E90D94839B1B}" ShortID="452791779">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687" ID="{671F9AE6-8A0B-4D9F-B74A-FB7C6D4E6A76}">
+															<Language>SFX</Language>
+															<AudioFile>Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="745090953"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687" ID="{671F9AE6-8A0B-4D9F-B74A-FB7C6D4E6A76}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1" ID="{A1AF2161-2634-4E5A-911F-93E8C2A51EEC}" ShortID="674395941">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1" ID="{EA4121A8-8774-4AF4-ADDA-0F09B8A59E2E}">
+															<Language>SFX</Language>
+															<AudioFile>Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="423558059"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Long SND22687 1" ID="{EA4121A8-8774-4AF4-ADDA-0F09B8A59E2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688" ID="{3B808D01-2218-4AD8-B901-6827BB3D65D6}" ShortID="682142355">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688" ID="{0EF899CA-069E-4876-ABF3-64C3BD9DFEB1}">
+															<Language>SFX</Language>
+															<AudioFile>Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="814824938"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Farts, Designed, Blow Raspberry, Fart Noise, Medium SND22688" ID="{0EF899CA-069E-4876-ABF3-64C3BD9DFEB1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Jester_shocked" ID="{B1F15250-3102-49BD-96DB-69EBAFF756ED}" ShortID="147946168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Reaction, Male, Gasp 03 SND23319 1" ID="{BE7C8162-3593-4AE8-A626-0D68050D3B3D}" ShortID="1058324994">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp 03 SND23319 1" ID="{CAE3C216-1025-4581-8596-D2D93871AADD}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp 03 SND23319 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="100611333"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp 03 SND23319 1" ID="{CAE3C216-1025-4581-8596-D2D93871AADD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725" ID="{073A9654-2BB7-492C-804B-54EB06D547A5}" ShortID="768831759">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725" ID="{1428487D-21ED-4F6B-B1A6-DAB837742748}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="136713009"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, In Peril, Gasp, Fear 01 SND23725" ID="{1428487D-21ED-4F6B-B1A6-DAB837742748}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724" ID="{E15DC3F8-3DF6-44B3-9C33-98C2375C61F9}" ShortID="762348780">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724" ID="{B76B26B5-1012-4623-BD41-D83F97EC73CA}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="535354629"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, In Peril, Gasp, Fear 02 SND23724" ID="{B76B26B5-1012-4623-BD41-D83F97EC73CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{F2A1E236-8250-4E37-8B13-DB708DD1A4F5}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-78.7162162162162"/>
+												<Property Name="PanY" Type="Real64" Value="4.44089209850063E-16"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</ActorMixer>
+								<ActorMixer Name="Monk" ID="{2EADA6C6-3EA9-4AF8-A63F-DCBD378C3C50}" ShortID="636946511">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Monk_neutral" ID="{98748375-4BB3-40E5-8288-1D10E170A9FB}" ShortID="958385457">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Reaction, Male, Huh 03 SND23345 1" ID="{4CBEC900-532C-4DBD-B6D8-2DFBA0AF77EB}" ShortID="620845947">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Huh 03 SND23345 1" ID="{7CB0F694-88F7-4D8B-A50D-F15737F190C0}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Huh 03 SND23345 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="596019436"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Huh 03 SND23345 1" ID="{7CB0F694-88F7-4D8B-A50D-F15737F190C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Huh 01 SND23344" ID="{81BDF3C7-EE57-4CA5-9ED2-0F9C1FFBF4D1}" ShortID="587184647">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Huh 01 SND23344" ID="{CDA98399-600A-4DD2-BAA9-77045ECDEE8D}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Huh 01 SND23344.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="312233382"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Huh 01 SND23344" ID="{CDA98399-600A-4DD2-BAA9-77045ECDEE8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Huh 02 SND23343" ID="{6B4BF55D-C478-459E-BF59-494336D581C6}" ShortID="152800747">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Huh 02 SND23343" ID="{CF6495AA-DE3F-44E0-94DB-E6FDFFA1518D}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Huh 02 SND23343.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="860135010"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Huh 02 SND23343" ID="{CF6495AA-DE3F-44E0-94DB-E6FDFFA1518D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Monk_defeated" ID="{D2F1B961-72E7-4ECD-88F8-3E57FFCC4350}" ShortID="511642954">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753" ID="{B42431B9-3D21-406A-B077-1EFE51EEF42D}" ShortID="865728418">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753" ID="{46F68DEC-2917-4A36-8860-F10487337353}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="300433330"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Insane, Laughing Out Loud Crazy SND63753" ID="{46F68DEC-2917-4A36-8860-F10487337353}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Monk_laughter" ID="{91991109-8CD7-44A2-AB94-181690475FF8}" ShortID="982405241">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769" ID="{44ABC7FC-25ED-4AF7-8A78-C4B012177784}" ShortID="810013443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769" ID="{BEDDDE32-EF7F-47C9-B1DA-897D50B67408}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Laughing, Laughs 01 SND63769.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="377395700"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769" ID="{BEDDDE32-EF7F-47C9-B1DA-897D50B67408}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1" ID="{EBDA200A-D22F-4A6E-B76E-9C60A86F3358}" ShortID="404121408">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1" ID="{303ADE90-F780-46E5-81F2-8AFA7197E1AB}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="930068027"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 1" ID="{303ADE90-F780-46E5-81F2-8AFA7197E1AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2" ID="{F5A0C4BA-9F13-4656-AD7C-B5BD2572A100}" ShortID="57503456">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2" ID="{37265329-553A-4137-B322-9B3EA7612115}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.262904250672043"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="369635341"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Laugh, Male, Laughing, Laughs 01 SND63769 2" ID="{37265329-553A-4137-B322-9B3EA7612115}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Monk_shock" ID="{5A92B7D0-C6C5-40DE-B0C1-2E42D910F5AD}" ShortID="966881622">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Voices, Reaction, Tut x3 SND23679" ID="{D0D2DCDC-1485-4F6D-84F9-2753B11876EC}" ShortID="254101635">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Tut x3 SND23679" ID="{26A7C7EE-7113-49A4-B239-1869C8B93F8C}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Tut x3 SND23679.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="153537970"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Tut x3 SND23679" ID="{26A7C7EE-7113-49A4-B239-1869C8B93F8C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Gasp 03 SND23319 3" ID="{61980D33-3C73-4CD0-9939-854B559841DD}" ShortID="610552403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp 03 SND23319 3" ID="{857BC0C1-A7B3-42BB-8312-6BA2EDB54AD9}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp 03 SND23319 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919684935"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp 03 SND23319 3" ID="{857BC0C1-A7B3-42BB-8312-6BA2EDB54AD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316 1" ID="{2220A13C-3A0C-471C-ADB0-4CEB297AC34D}" ShortID="608643647">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9BC88457-2A36-470F-9EEA-313B05F70FD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F651CA7-22D8-4046-885F-ABD811AB014D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316 1" ID="{17FFDA4D-0A37-4730-9565-E648E8204759}">
+															<Language>SFX</Language>
+															<AudioFile>Voices, Reaction, Male, Gasp, Shock 02 SND23316 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="679831934"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Voices, Reaction, Male, Gasp, Shock 02 SND23316 1" ID="{17FFDA4D-0A37-4730-9565-E648E8204759}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{048D354C-E60E-4851-A5C8-B1B1EC7FB0B4}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="68.2432432432432"/>
+												<Property Name="PanY" Type="Real64" Value="-1.08695652173913"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
